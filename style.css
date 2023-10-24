@@ -1,0 +1,152 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('Independent 1.jpg');
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.main {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('Independent 1.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh; /* Change to min-height for better responsiveness */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Logo styles */
+.logo {
+  color: rgb(218, 218, 218);
+  font-size: 1.5rem;
+  font-family: Arial;
+}
+
+/* Menu styles */
+.menu {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: forestgreen;
+}
+
+/* Search and button styles */
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.srch {
+  font-family: 'Times New Roman';
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #1aeb0b;
+  color: lavender;
+  border-right: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.btn {
+  width: 80px;
+  height: 40px;
+  background: #1aeb0b;
+  border: 2px solid #1aeb0b;
+  color: rgb(233, 239, 236);
+  font-size: 15px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.btn:focus,
+.srch:focus {
+  outline: none;
+}
+
+/* Content styles */
+.content {
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+}
+
+.content .content-title {
+  text-align: left;
+}
+
+content h1 {
+  font-family: 'Times New Roman';
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.content .content-info {
+  text-align: left;
+}
+
+.content .par {
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.content .cn {
+  width: 160px;
+  height: 40px;
+  background: #1aeb0b;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.content .cn a {
+  text-decoration: none;
+  color: rgb(63, 32, 32);
+  transition: 0.3s ease;
+}
+
+.cn:hover {
+  background: #fff;
+}
